@@ -1,0 +1,5 @@
+- name: SharePoint
+  href: sharepoint/
+- name: CollabWare
+  href: collabware/
+  homepage: collabware/index.md
