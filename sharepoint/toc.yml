@@ -1,5 +1,144 @@
+- name: SharePoint Information Architecture
+  href: SPInformationArchitecture.md
+  items:
+      - name: M365 Configuration
+        href: M365Config.md
+        items: 
+            - name: Configuring Users
+              href: M365Configuration/ConfigUsers.md
+            - name: Configuring Groups
+              href: M365Configuration/ConfigGroups.md
+            - name: Assigning Licenses - Users
+              href: M365Configuration/AssignUserLicenses.md
+            - name: Assigning Licenses - Groups
+              href: M365Configuration/AssignGroupLicenses.md
+            - name: Install Office Apps
+              href: M365Configuration/InstallOfficeApps.md
+            - name: Setup Mailboxes
+              href: M365Configuration/SetupMailboxes.md
+            - name: Setup Credentials
+              href: M365Configuration/SetCredentials.md
+            - name: Setup Multifactor Authentication
+              href: M365Configuration/SetupMFA.md
+            - name: Setup Logo & Links
+              href: M365Configuration/SetLogoLinks.md
+            - name: Setup Outbound & Inbound Properties
+              href: M365Configuration/SetExchangeProp.md        
+      - name: Site Architecture
+        href: SiteArchitecture.md
+        items:
+            - name: Hub-Spoke Model
+              href: SiteArchitecture/HubSpokeModel.md
+            - name: Create Site Pages
+              href: SiteArchitecture/CreateSitePages.md
+            - name: Define Site Columns
+              href: SiteArchitecture/DefineSiteColums.md
+            - name: Add Columns to Content Types
+              href: SiteArchitecture/AddColumnsCT.md
+            - name: Content Type Hub
+              href: SiteArchitecture/ContentTypeHub.md
+            - name: Content Type Inheritance
+              href: SiteArchitecture/CTInheritance.md
+            - name: Publish a Content Type
+              href: SiteArchitecture/PublishCT.md
+            - name: Lists
+              href: SiteArchitecture/Lists.md
+            - name: Libraries
+              href: SiteArchitecture/Libraries.md
+            - name: Folders
+              href: SiteArchitecture/Folders.md
+            - name: Document Sets
+              href: SiteArchitecture/DocumentSets.md
+            - name: Creating Custom Views
+              href: SiteArchitecture/CreatingCustomViews.md        
+      - name: Site Design
+        href: SiteDesign.md
+        items:
+            - name: Branding
+              href: SiteDesign/Branding.md
+            - name: HomePage Design
+              href: SiteDesign/HomePageDesign.md
+            - name: Site Title & Description
+              href: SiteDesign/SiteTitleDescription.md
+            - name: Site Color for various Environments
+              href: SiteDesign/SiteColor.md
+            - name: Webpart Elements
+              href: SiteDesign/WebPartElements.md
+            - name: Quick Launch Elements
+              href: SiteDesign/QuickLaunch.md
+            - name: Define Site Settings/Features
+              href: SiteDesign/DefineSiteSettings.md
+            - name: Configure Search Settings
+              href: SiteDesign/ConfigSearchSettings.md        
+      - name: Site Permissions
+        href: SitePermission.md
+        items:
+            - name: Sync AD Connect with On-prem
+              href: SitePermissions/SyncAD.md
+            - name: Configure AD Groups
+              href: SitePermissions/ConfigADGroups.md
+            - name: Create SP Groups
+              href: SitePermissions/CreateSPGroups.md
+            - name: Add AD Groups to Site
+              href: SitePermissions/AddADGroups.md
+            - name: Configure Audience Targeting
+              href: SitePermissions/ConfigAudienceTarget.md
+            - name: Configure Site Sharing
+              href: SitePermissions/ConfigSiteSharing.md
+            - name: Site Collection Administrators
+              href: SitePermissions/SiteColAdmin.md
+            - name: Access Level Request Settings
+              href: SitePermissions/AccessLevelRequests.md
+            - name: Custom Permission Levels
+              href: SitePermissions/CustomPermLevels.md
+      - name: Site Navigation
+        href: SiteNavigation.md
+        items:
+            - name: Hub Navigation
+              href: SiteNavigation/HubNavigation.md
+            - name: Quick Launch
+              href: SiteNavigation/QuickLaunch.md        
 - name: Comparative Guide
   href: intro.md
   items:
-      - name: Site
-        href: sharepoint/site.md
+      - name: File Explorer vs SharePoint Site
+        href: CompGuide/FileExplvsSPSite.md
+      - name: Folders vs Libraries
+        href: CompGuide/FoldvsLib.md
+      - name: Excel Files vs Lists
+        href: CompGuide/ExcelvsLists.md
+      - name: View in Explorer vs Custom views
+        href: CompGuide/ViewExplvsSPO.md
+      - name: Columns in Explorer vs Metadata
+        href: CompGuide/ColvsMM.md
+      - name: Search Folder vs Search site
+        href: CompGuide/SearchFolvssite.md
+      - name: Sharing files in Explorer vs Sharing in SPO
+        href: CompGuide/SharingfilesExplvsSPO.md
+      - name: Permissions in Explorer vs Site
+        href: CompGuide/PermExplvsSitePerm.md
+      - name: Navigation in explorer vs Site
+        href: CompGuide/FileNavvsSiteNav.md
+      - name: Grouping in Explorer vs SPO site
+        href: CompGuide/GroupingExplvsSPsite.md
+      - name: Sorting in Explorer vs SPO site
+        href: CompGuide/SortingExplvsSPO.md
+      - name: Recycling in Explorer vs SPO Site
+        href: CompGuide/RecycExpvsSPSite.md
+      - name: Webparts & themes
+        href: CompGuide/Webthemes.md
+      - name: Content types
+        href: CompGuide/Conttypes.md
+      - name: Managed Meta Data
+        href: CompGuide/MMData.md
+      - name: Term Store
+        href: CompGuide/TermStore.md
+      - name: Version history
+        href: CompGuide/Verhistory.md
+      - name: Document Sets
+        href: CompGuide/DocSets.md
+      - name: Collaboration
+        href: CompGuide/Collab.md
+      - name: Audience Targetting
+        href: CompGuide/AudTarget.md
+        

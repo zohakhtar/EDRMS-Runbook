@@ -1,5 +1,6 @@
 - name: SharePoint
   href: sharepoint/
+  homepage: sharepoint/SPInformationArchitecture.md
 - name: CollabWare
   href: collabware/
   homepage: collabware/index.md
